@@ -1,0 +1,62 @@
+ 
+ pregunta 18:
+	
+2.0.0p247 :003 > puts "hello world"
+hello world
+ => nil 
+2.0.0p247 :004 >
+
+pregunta 21:
+
+ al diferencia es que  el interprete irb  muestra el contenido del fichero y luego lo que queremos mostrar, y el interprete Ruby solo muestra lo que le hemos indicado en el código.
+
+2.0.0p247 :001 >  puts  "hello world"
+hello world
+ => nil 
+2.0.0p247 :002 > 
+alu4542@cc199:~/LPP/prct03$ ruby helloworld.rb
+hello world
+
+pregunta 26:
+
+[1] pry(main)> 
+[2] pry(main)> puts x 
+10
+=> nil
+
+
+[3] pry(main)> 
+[4] pry(main)> def hello 
+[4] pry(main)*   puts "hello world" 
+[4] pry(main)* end  
+=> nil
+
+
+[6] pry(main)> hello
+hello world
+=> nil
+
+[7] pry(main)> byebye
+bye bye world!!!
+=> nil
+
+[8] pry(main)> x = "changed" 
+=> "changed"
+
+
+[1] pry(main)> x = "changed"
+=> "changed"
+[2] pry(main)> exit
+program resumes her. Value of x is: changed.
+alu4542@cc199:~/LPP/prct03$ 
+ 
+pregunta 27:
+
+la diferencia es que en el Pry podemos probar cambios en tiempo de ejecución , asi realizar pequeñas pruebas para saber como funciona el código.
+
+
+
+
+ 
+
+
